@@ -1,0 +1,13 @@
+@import '../config.scss';
+
+nav {
+    background-color: $c0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: $c9;
+    font-weight: bold;
+    padding: $md 0;
+}

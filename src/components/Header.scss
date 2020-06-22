@@ -1,0 +1,35 @@
+@import '../config.scss';
+
+header {
+  background-color: $c0;
+  margin-top: 43px;
+  color: $c9;
+  background-image: url('/assets/police-car-dark.jpg');
+  background-position: bottom left;
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 55px $lg 75px $lg;
+  > div {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 85%;
+    input,
+    button {
+      padding: $sm $md;
+      height: 100%;
+    }
+    >input {
+      border: none;
+      height: 20px;
+    }
+    button {
+      border: none;
+      margin-bottom: $lg;
+      height: 34px;
+      background-color: $c6;
+    }
+  }
+  h1 {
+    font-weight: 400;
+  }
+}
