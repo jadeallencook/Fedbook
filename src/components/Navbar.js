@@ -14,13 +14,25 @@ export default function () {
         </ul>
       )}
       {menu && <span onClick={() => setMenu(!menu)}>X</span>}
-      <Link to="/">Fedbook</Link>
+      <Link to="/browse">Fedbook</Link>
       {menu && (
         <ul className="menu">
-          <li>Browse</li>
-          <li>About</li>
-          <li>Resources</li>
-          <li>Donate</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/browse">Browse</Link>
+          </li>
+          <li>
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf5V5b1zWX9k0PvZvMVNEtpUNOp7aENRGVl_Xf4U2dmcDOK0w/viewform"
+            >
+              Submit
+            </a>
+          </li>
+          <li>Developed by @jadeallencook</li>
         </ul>
       )}
     </nav>

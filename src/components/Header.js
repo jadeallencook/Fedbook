@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Header.scss';
 
 export default function (props) {
+  window.scrollTo(0, 0);
   const { query, setQuery } = props;
   return (
     <header>

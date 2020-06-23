@@ -3,14 +3,18 @@ import './Profile.scss';
 import snapshot from '../snapshot.json';
 
 export default function (props) {
+  window.scrollTo(0, 0);
   const profile = snapshot.profiles[window.location.hash.split('/')[2]];
   const {
     name,
     image,
     title,
     department,
+    departmentLink,
     category,
-    wiki,
+    bio,
+    bioLink,
+    bioLinkText,
     resources,
     keywords,
   } = profile;
@@ -27,7 +31,9 @@ export default function (props) {
         </li>
         <li>
           <i className="fa fa-university" aria-hidden="true"></i>Employeed by{' '}
-          <b>{department}</b>
+          <a rel="noopener noreferrer" href={departmentLink} target="_blank">
+            {department}
+          </a>
         </li>
         <li>
           <i className="fa fa-tags" aria-hidden="true"></i>Related to {` `}
@@ -45,9 +51,12 @@ export default function (props) {
           })}
         </li>
       </ul>
-      {wiki ? (
+      {bio && bioLink && bioLinkText ? (
         <p>
-          {wiki} <b>Wikipedia</b>
+          {bio}{' '}
+          <a rel="noopener noreferrer" href={bioLink} target="_blank">
+            {bioLinkText}
+          </a>
         </p>
       ) : (
         <br />
@@ -56,19 +65,32 @@ export default function (props) {
         {resources &&
           resources.map((uid) => {
             const resource = snapshot.resources[uid];
-            const { video, title } = resource;
+            const { video, title, image, link } = resource;
             return (
               <li key={uid}>
-                <iframe
-                  title="video"
-                  src={`https://www.youtube-nocookie.com/embed/${
-                    video.split('=')[1]
-                  }`}
-                ></iframe>
-                <div>
-                  <p>{video.split('/')[2]}</p>
+                {image && (
+                  <div
+                    className="article-image"
+                    style={{
+                      backgroundImage: `url(${image})`,
+                    }}
+                  ></div>
+                )}
+                {video && (
+                  <iframe
+                    title="video"
+                    src={`https://www.youtube-nocookie.com/embed/${
+                      video.split('=')[1]
+                    }`}
+                  ></iframe>
+                )}
+                <a href={video ? video : link} rel="noopener noreferrer" target="_blank">
+                  <p>
+                    {video && video.split('/')[2]}
+                    {link && link.split('/')[2]}
+                  </p>
                   <p>{title}</p>
-                </div>
+                </a>
               </li>
             );
           })}

@@ -4,6 +4,7 @@ import snapshot from '../snapshot.json';
 import './Browse.scss';
 
 export default function (props) {
+  window.scrollTo(0, 0);
   const { profiles } = snapshot;
   const { query, setQuery } = props;
   return (

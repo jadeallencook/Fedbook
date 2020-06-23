@@ -6,11 +6,12 @@ nav {
   text-align: left;
   box-sizing: border-box;
   top: 0;
-  left: 0;
   width: 100%;
   color: $c9;
   font-weight: bold;
   padding: $md $lg;
+  max-width: 450px;
+  margin: 0 auto;
   > a {
     color: $c9;
     text-decoration: none;
@@ -47,12 +48,20 @@ nav {
       padding: 0;
       list-style: none;
       > li {
+        > a {
+          color: $c9;
+          text-decoration: none;
+          font-weight: bold;
+        }
           margin: 0;
           padding: $sm;
           border-bottom: solid thin $c4;
       }
       > li:last-child {
           border-bottom: none;
+          font-size: $f0;
+          font-weight: normal;
+          font-weight: 400;
       }
   }
 }

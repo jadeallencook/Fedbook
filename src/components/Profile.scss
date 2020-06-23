@@ -26,6 +26,11 @@ section.Profile {
     padding: 0 $lg;
     font-size: $f0;
     > li {
+      > a {
+        color: $c9;
+        font-weight: bold;
+        text-decoration: none;
+      }
       > i {
         margin-right: $md;
       }
@@ -36,33 +41,45 @@ section.Profile {
     box-sizing: border-box;
     padding: $lg;
     font-size: $f0;
+    > a {
+      font-weight: bold;
+      color: $c9;
+      text-decoration: none;
+    }
   }
   > ul.resources {
     list-style: none;
     margin: 0;
     padding: 0;
     > li {
-        >div {
-            color: $c0;
-            background-color: $c6;
-            box-sizing: border-box;
-            padding: $sm $md;
-            >p:first-child {
-                font-size: $f0;
-                color: $c3;
-                margin-bottom: 0;
-                text-transform: uppercase;
-            }>p:last-child {
-                margin-top: 0;
-                font-weight: bold;
-                font-size: $f2;
-                text-transform: capitalize;
-                color: $c2;
-            }
+      > div.article-image {
+        height: 225px;
+        background-size: cover;
+        background-color: $c2;
+        background-position: center center;
+      }
+      > a {
+        display: block;
+        background-color: $c6;
+        box-sizing: border-box;
+        padding: $sm $md;
+        > p:first-child {
+          font-size: $f0;
+          color: $c3;
+          margin-bottom: 0;
+          text-transform: uppercase;
         }
+        > p:last-child {
+          margin-top: 0;
+          font-weight: bold;
+          font-size: $f2;
+          text-transform: capitalize;
+          color: $c2;
+        }
+      }
       > iframe {
         width: 100%;
-        height: 200px;
+        height: 225px;
         border: none;
         margin-bottom: -3px;
       }

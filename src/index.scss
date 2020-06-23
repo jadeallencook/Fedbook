@@ -1,8 +1,17 @@
 @import './config.scss';
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: $c2;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: $c2;
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
