@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import snapshot from '../snapshot.json';
 
 export default function () {
-  const profiles = ['derek-chauvin', 'nick-boney'].map(
+  const profiles = ['derek-chauvin', 'nick-boney', 'timothy-loehmann', 'jonathan-mattingly'].map(
     (uid) => {
       return {
         uid: uid,
