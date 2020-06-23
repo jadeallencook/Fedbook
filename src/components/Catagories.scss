@@ -1,0 +1,21 @@
+@import '../config.scss';
+
+ul.Catagories {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: $c9;
+    background-color: $c0;
+    text-align: center;
+    >li {
+        padding: $lg 0;
+        font-size: $f0;
+        > img {
+            width: 35px;
+            display: block;
+            margin: $sm auto;
+        }
+    }
+}

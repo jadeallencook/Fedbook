@@ -1,0 +1,40 @@
+@import '../config.scss';
+
+section.Profile {
+    background-color: $c0;
+    color: $c9;
+    padding-bottom: $lg;
+    > div.banner {
+        height: 125px;
+        background-color: $c1;
+        margin-top: 43px;
+    }
+    > img.profile {
+        width: 150px;
+        border-radius: 100%;
+        display: block;
+        margin: -75px auto 0 auto;
+        border: solid thick $c3;
+    }
+    >h2 {
+        text-align: center;
+    }
+    >ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        padding: 0 $lg;
+        font-size: $f0;
+        > li {
+            > i {
+                margin-right: $md;
+            }
+            margin-bottom: $md;
+        }
+    }
+    > p {
+        box-sizing: border-box;
+        padding: $md;
+        font-size: $f0;
+    }
+}

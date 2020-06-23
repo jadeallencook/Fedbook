@@ -1,0 +1,25 @@
+@import '../config.scss';
+
+section.Dashboard {
+  color: $c9;
+  margin-top: 50px;
+  padding: $lg;
+  > form {
+    > label {
+      font-size: $f0;
+    }
+    > label,
+    > input,
+    > select,
+    > textarea {
+      display: block;
+      width: 250px;
+    }
+    > input,
+    > select,
+    > textarea {
+      margin-bottom: $md;
+      padding: $sm;
+    }
+  }
+}
