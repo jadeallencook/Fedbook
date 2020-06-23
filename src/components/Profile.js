@@ -14,10 +14,11 @@ export default function (props) {
     resources,
     keywords,
   } = profile;
+  const ProfileImage = require(`../assets/profiles/${image}`);
   return (
     <section className="Profile">
       <div className="banner"></div>
-      <img className="profile" src={`/assets/profiles/${image}`} alt={name} />
+      <img className="profile" src={ProfileImage} alt={name} />
       <h2>{name}</h2>
       <ul>
         <li>
