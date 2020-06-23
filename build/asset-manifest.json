@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fedbook/build/static/css/main.5cbcb140.chunk.css",
+    "main.js": "/fedbook/build/static/js/main.d399be75.chunk.js",
+    "main.js.map": "/fedbook/build/static/js/main.d399be75.chunk.js.map",
+    "runtime-main.js": "/fedbook/build/static/js/runtime-main.0acdf9c5.js",
+    "runtime-main.js.map": "/fedbook/build/static/js/runtime-main.0acdf9c5.js.map",
+    "static/js/2.f732483d.chunk.js": "/fedbook/build/static/js/2.f732483d.chunk.js",
+    "static/js/2.f732483d.chunk.js.map": "/fedbook/build/static/js/2.f732483d.chunk.js.map",
+    "index.html": "/fedbook/build/index.html",
+    "precache-manifest.aa2a0cd33c49125be89b9d2a93d48f47.js": "/fedbook/build/precache-manifest.aa2a0cd33c49125be89b9d2a93d48f47.js",
+    "service-worker.js": "/fedbook/build/service-worker.js",
+    "static/css/main.5cbcb140.chunk.css.map": "/fedbook/build/static/css/main.5cbcb140.chunk.css.map",
+    "static/js/2.f732483d.chunk.js.LICENSE.txt": "/fedbook/build/static/js/2.f732483d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0acdf9c5.js",
+    "static/js/2.f732483d.chunk.js",
+    "static/css/main.5cbcb140.chunk.css",
+    "static/js/main.d399be75.chunk.js"
+  ]
+}
