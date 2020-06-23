@@ -15,31 +15,46 @@
       "facebook": "",
       "twitter": "",
       "instagram": "",
-      "resources": {},
+      "resources": ["09s0ihvsls8nzlxa1a"],
       "dob": 1976,
       "charges": {},
       "salary": 50000
     },
-    "george-zimmerman": {
-      "name": "George Zimmerman",
-      "image": "george-zimmerman.jpg",
+    "nick-boney": {
+      "name": "Nick Boney",
+      "image": "nick-boney.jpg",
       "category": "Law Enforcement",
       "title": "Police Officer",
-      "wiki": "George Michael Zimmerman is an American who fatally shot Trayvon Martin in Sanford, Florida, on February 26, 2012. On July 13, 2013, he was acquitted of all charges in Florida v. George Zimmerman. After his acquittal, Zimmerman himself was the target of a shooting, which resulted in a conviction for attempted murder against the perpetrator.",
-      "wikiLink": "https://en.wikipedia.org/wiki/George_Zimmerman",
-      "department": "Stanford Police Department",
-      "departmentLink": "https://www.sanfordfl.gov/departments/police-department",
+      "wiki": "",
+      "wikiLink": "",
+      "department": "Gwinnett County Sheriff's Office",
+      "departmentLink": "http://www.gwinnettcountysheriff.com/",
       "badge": 0,
-      "keywords": "Trayvon Martin, Police Brutality ",
-      "zipcode": 94305,
+      "keywords": "Community Service",
+      "zipcode": 30043,
       "facebook": "",
       "twitter": "",
       "instagram": "",
-      "resources": {},
-      "dob": 1983,
+      "resources": ["ws6qom7mt9l8l6"],
+      "dob": 0,
       "charges": {},
       "salary": 50000
     }
   },
-  "resources": {}
+  "resources": {
+    "09s0ihvsls8nzlxa1a": {
+      "link": "",
+      "video": "https://www.youtube.com/watch?v=vksEJR9EPQ8",
+      "date": "Jun 1, 2020",
+      "title": "How George Floyd Was Killed in Police Custody",
+      "image": ""
+    },
+    "ws6qom7mt9l8l6": {
+      "link": "",
+      "video": "https://www.youtube.com/watch?v=FRJAWYJQJfQ",
+      "date": "Mar 4, 2020",
+      "title": "Gwinnett Cops Helping Mom Celebrate Daughter’s 1st Birthday",
+      "image": ""
+    }
+  }
 }
