@@ -57,7 +57,6 @@ export default function (props) {
           resources.map((uid) => {
             const resource = snapshot.resources[uid];
             const { video, title } = resource;
-            console.log(video.split('=')[1]);
             return (
               <li key={uid}>
                 <iframe

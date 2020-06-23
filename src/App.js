@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.scss';
 
@@ -10,15 +10,17 @@ import Featured from './components/Featured';
 import Footer from './components/Footer';
 import Dashboard from './components/Dashboard';
 import Profile from './components/Profile';
+import Browse from './components/Browse';
 
 function App() {
+  const [query, setQuery] = useState('');
   return (
     <div className="App">
       <Router>
         <Navbar />
         <Switch>
           <Route exact path="/">
-            <Header />
+            <Header query={query} setQuery={setQuery} />
             <Catagories />
             <Featured />
           </Route>
@@ -27,6 +29,9 @@ function App() {
           </Route>
           <Route path="/profile">
             <Profile />
+          </Route>
+          <Route path="/browse">
+            <Browse query={query} setQuery={setQuery} />
           </Route>
         </Switch>
         <Footer />

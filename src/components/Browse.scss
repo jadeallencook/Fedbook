@@ -1,0 +1,49 @@
+@import '../config.scss';
+
+section.Browse {
+  > div {
+    padding: 65px $md $sm $md;
+    box-sizing: border-box;
+    > input {
+      width: 75%;
+      display: block;
+      padding: $sm $md;
+      border: none;
+      border-radius: 0;
+    }
+  }
+  > ul {
+    box-sizing: border-box;
+    padding: $md;
+    > a {
+      text-decoration: none;
+      > li {
+        background-color: $c3;
+        box-sizing: border-box;
+        padding: $md;
+        margin-bottom: $md;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        text-decoration: none;
+        > div {
+          > h3 {
+            margin: 16px 0 0 0;
+            color: $c9;
+          }
+          > p {
+            margin: 0;
+            font-size: $f0;
+          }
+          > p {
+            color: $c6;
+          }
+          > img {
+            width: 75px;
+            border-radius: 100%;
+            margin: 0 0 -5px 0;
+          }
+        }
+      }
+    }
+  }
+}

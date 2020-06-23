@@ -21,11 +21,17 @@ header {
     >input {
       border: none;
       height: 20px;
+      border-radius: none;
     }
-    button {
+    a {
       border: none;
       margin-bottom: $lg;
       height: 34px;
+      font-size: $f0;
+      color: $c0;
+      text-align: center;
+      line-height: 2.45em;
+      text-decoration: none;
       background-color: $c6;
     }
   }
