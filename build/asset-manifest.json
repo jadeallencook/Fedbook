@@ -1,22 +1,33 @@
 {
   "files": {
-    "main.css": "/fedbook/build/static/css/main.5cbcb140.chunk.css",
-    "main.js": "/fedbook/build/static/js/main.d399be75.chunk.js",
-    "main.js.map": "/fedbook/build/static/js/main.d399be75.chunk.js.map",
+    "main.css": "/fedbook/build/static/css/main.e878efa7.chunk.css",
+    "main.js": "/fedbook/build/static/js/main.e0435436.chunk.js",
+    "main.js.map": "/fedbook/build/static/js/main.e0435436.chunk.js.map",
     "runtime-main.js": "/fedbook/build/static/js/runtime-main.0acdf9c5.js",
     "runtime-main.js.map": "/fedbook/build/static/js/runtime-main.0acdf9c5.js.map",
-    "static/js/2.f732483d.chunk.js": "/fedbook/build/static/js/2.f732483d.chunk.js",
-    "static/js/2.f732483d.chunk.js.map": "/fedbook/build/static/js/2.f732483d.chunk.js.map",
+    "static/js/2.a0bafc48.chunk.js": "/fedbook/build/static/js/2.a0bafc48.chunk.js",
+    "static/js/2.a0bafc48.chunk.js.map": "/fedbook/build/static/js/2.a0bafc48.chunk.js.map",
     "index.html": "/fedbook/build/index.html",
-    "precache-manifest.aa2a0cd33c49125be89b9d2a93d48f47.js": "/fedbook/build/precache-manifest.aa2a0cd33c49125be89b9d2a93d48f47.js",
+    "precache-manifest.2e9f058638a53cbd9d6d56656f5daecf.js": "/fedbook/build/precache-manifest.2e9f058638a53cbd9d6d56656f5daecf.js",
     "service-worker.js": "/fedbook/build/service-worker.js",
-    "static/css/main.5cbcb140.chunk.css.map": "/fedbook/build/static/css/main.5cbcb140.chunk.css.map",
-    "static/js/2.f732483d.chunk.js.LICENSE.txt": "/fedbook/build/static/js/2.f732483d.chunk.js.LICENSE.txt"
+    "static/css/main.e878efa7.chunk.css.map": "/fedbook/build/static/css/main.e878efa7.chunk.css.map",
+    "static/js/2.a0bafc48.chunk.js.LICENSE.txt": "/fedbook/build/static/js/2.a0bafc48.chunk.js.LICENSE.txt",
+    "static/media/brett-hankinson.jpg": "/fedbook/build/static/media/brett-hankinson.f0b79f29.jpg",
+    "static/media/Header.scss": "/fedbook/build/static/media/car.95ab3f1b.jpg",
+    "static/media/court.png": "/fedbook/build/static/media/court.ea6b6513.png",
+    "static/media/derek-chauvin.jpg": "/fedbook/build/static/media/derek-chauvin.55312e20.jpg",
+    "static/media/font-awesome.min.css": "/fedbook/build/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/jonathan-mattingly.jpg": "/fedbook/build/static/media/jonathan-mattingly.df37c482.jpg",
+    "static/media/myles-cosgrove.jpg": "/fedbook/build/static/media/myles-cosgrove.b25ed0bf.jpg",
+    "static/media/nick-boney.jpg": "/fedbook/build/static/media/nick-boney.da33b7f0.jpg",
+    "static/media/police.png": "/fedbook/build/static/media/police.4aa3a6ca.png",
+    "static/media/politicians.png": "/fedbook/build/static/media/politicians.3a191aa3.png",
+    "static/media/timothy-loehmann.jpg": "/fedbook/build/static/media/timothy-loehmann.4dc0a000.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0acdf9c5.js",
-    "static/js/2.f732483d.chunk.js",
-    "static/css/main.5cbcb140.chunk.css",
-    "static/js/main.d399be75.chunk.js"
+    "static/js/2.a0bafc48.chunk.js",
+    "static/css/main.e878efa7.chunk.css",
+    "static/js/main.e0435436.chunk.js"
   ]
 }
