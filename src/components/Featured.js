@@ -16,11 +16,12 @@ export default function () {
     <ul className="Featured">
       {profiles.map((profile) => {
         const { uid, image, name, title } = profile;
+        const ProfileImage = require(`../assets/profiles/${image}`);
         return (
           <Link to={`/profile/${uid}`} key={uid}>
             <li>
               <div>
-                <img src={`/assets/profiles/${image}`} alt={name} />
+                <img src={ProfileImage} alt={name} />
               </div>
               <div>
                 <h3>{name}</h3>
