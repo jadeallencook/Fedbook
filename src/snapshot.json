@@ -146,6 +146,46 @@
       "dob": 0,
       "charges": {},
       "salary": 50000
+    },
+    "richard-nelson": {
+      "name": "Richard Nelson",
+      "image": "",
+      "category": "Law Enforcement",
+      "title": "Police Officer",
+      "wiki": "",
+      "wikiLink": "",
+      "department": "Las Vegas Metropolitan Police Department",
+      "departmentLink": "https://www.lvmpd.com/en-us/Pages/default.aspx",
+      "badge": 0,
+      "keywords": "Shooting",
+      "zipcode": 89106,
+      "facebook": "",
+      "twitter": "",
+      "instagram": "",
+      "resources": ["lksdflnk3nlkf3nl"],
+      "dob": 0,
+      "charges": {},
+      "salary": 50000
+    },
+    "martin-folczyk": {
+      "name": "Martin Folczyk",
+      "image": "martin-folczyk.jpg",
+      "category": "Law Enforcement",
+      "title": "Police Officer",
+      "wiki": "",
+      "wikiLink": "",
+      "department": "Menomonie Police Department",
+      "departmentLink": "http://www.menomonie-wi.gov/",
+      "badge": 0,
+      "keywords": "Community Service",
+      "zipcode": 54751,
+      "facebook": "",
+      "twitter": "",
+      "instagram": "",
+      "resources": ["dflkm345lfelkmfwe"],
+      "dob": 0,
+      "charges": {},
+      "salary": 50000
     }
   },
   "resources": {
@@ -180,9 +220,23 @@
     "dlskfmlskdf223m": {
       "link": "https://www.nytimes.com/2018/10/08/us/timothy-loehmann-tamir-rice-shooting.html",
       "video": "",
-      "date": "Oct. 8, 2018",
+      "date": "Oct 8, 2018",
       "title": "Cleveland Officer Who Killed Tamir Rice Is Hired by an Ohio Police Department",
       "image": "https://static01.nyt.com/images/2018/10/08/us/09xp-Loehmann/09xp-Loehmann-superJumbo.jpg?quality=90&auto=webp"
+    },
+    "lksdflnk3nlkf3nl": {
+      "link": "",
+      "video": "https://www.youtube.com/watch?v=HMlzW6iVrRA",
+      "date": "Aug 7, 2017",
+      "title": "Bodycam Shows Police Fatally Shooting Man in Las Vegas Shootout",
+      "image": ""
+    },
+    "dflkm345lfelkmfwe": {
+      "link": "",
+      "video": "https://www.youtube.com/watch?v=rYwh2Ogx4RA",
+      "date": "Dec 20, 2016",
+      "title": "Dashcam: Police Officer Helps Speeding Student Tie His Tie",
+      "image": ""
     }
   }
 }

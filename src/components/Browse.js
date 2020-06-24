@@ -23,7 +23,9 @@ export default function (props) {
           .map((uid) => {
             const profile = profiles[uid];
             const { name, title, image } = profile;
-            const ProfileImage = require(`../assets/profiles/${image}`);
+            const ProfileImage = require(`../assets/profiles/${
+              image ? image : 'default.jpg'
+            }`);
             return (
               (!query ||
                 (query &&

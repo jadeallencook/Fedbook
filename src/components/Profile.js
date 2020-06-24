@@ -18,7 +18,9 @@ export default function (props) {
     resources,
     keywords,
   } = profile;
-  const ProfileImage = require(`../assets/profiles/${image}`);
+  const ProfileImage = require(`../assets/profiles/${
+    image ? image : 'default.jpg'
+  }`);
   return (
     <section className="Profile">
       <div className="banner"></div>
@@ -84,7 +86,11 @@ export default function (props) {
                     }`}
                   ></iframe>
                 )}
-                <a href={video ? video : link} rel="noopener noreferrer" target="_blank">
+                <a
+                  href={video ? video : link}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <p>
                     {video && video.split('/')[2]}
                     {link && link.split('/')[2]}

@@ -13,7 +13,7 @@ export default {
   facebook: null,
   twitter: null,
   instagram: null,
-  resources: {},
+  resources: [],
   dob: null,
   charges: {},
   salary: null,
