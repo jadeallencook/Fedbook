@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "150884524dd83afeacfc21c662aec6e2",
+    "revision": "b37bd36a2e83aee7e0021989bd35b786",
     "url": "/fedbook/build/index.html"
   },
   {
-    "revision": "914c272137599a33872c",
+    "revision": "03b4bab4a6dd0d31afce",
     "url": "/fedbook/build/static/css/main.f43fdb2e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fedbook/build/static/js/2.41401d4c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "914c272137599a33872c",
-    "url": "/fedbook/build/static/js/main.19141b6a.chunk.js"
+    "revision": "03b4bab4a6dd0d31afce",
+    "url": "/fedbook/build/static/js/main.3fd0dac2.chunk.js"
   },
   {
     "revision": "2d3562a9ed0c2e8ace22",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bc5c722445b6ba835fcf945750aab634",
     "url": "/fedbook/build/static/media/daniel-lentz.bc5c7224.jpg"
+  },
+  {
+    "revision": "cfbe2339836594479783ed047821f02b",
+    "url": "/fedbook/build/static/media/default.cfbe2339.jpg"
   },
   {
     "revision": "17ce46fbb59f45801b0fa15c7e3125b0",
@@ -62,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fe322a784220dd8789ccb4a4b1d444f1",
     "url": "/fedbook/build/static/media/jonathan-mattingly.fe322a78.jpg"
+  },
+  {
+    "revision": "e81ef1d17baae90332a9220ab3cb82f1",
+    "url": "/fedbook/build/static/media/martin-folczyk.e81ef1d1.jpg"
   },
   {
     "revision": "1a83df89e2d41f5bc918a2c86309b4c5",
