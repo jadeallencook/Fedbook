@@ -2,7 +2,7 @@ import React from 'react';
 import './Profile.scss';
 import snapshot from '../snapshot.json';
 
-export default function (props) {
+export default function () {
   window.scrollTo(0, 0);
   const profile = snapshot.profiles[window.location.hash.split('/')[2]];
   const {
@@ -50,6 +50,7 @@ export default function (props) {
                 </span>
               );
             }
+            return null;
           })}
         </li>
       </ul>
